@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Karhutla EWS</title>
+
+        <script>
+            function openApp() {
+                const path = window.location.pathname;
+                const query = window.location.search;
+
+                const deeplink = "karhutlaews://" + path + query;
+                window.location.href = deeplink;
+            }
+            window.onload = openApp;
+        </script>
+
+        <style>
+            body{
+                font-family: Arial;
+                text-align:center;
+                margin-top:100px;
+            }
+
+            button{
+                padding:12px 20px;
+                font-size:16px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Membuka aplikasi Karhutla EWS</h2>
+        <p>Jika aplikasi tidak terbuka, tekan tombol di bawah</p>
+        <a id="openAppBtn">
+            <button>Buka Aplikasi</button>
+        </a>
+
+        <script>
+            const path = window.location.pathname;
+            const query = window.location.search;
+
+            const deeplink = "karhutlaews://" + path + query;
+            document.getElementById("openAppBtn").href = deeplink;
+        </script>
+    </body>
+</html>
