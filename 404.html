@@ -1,3 +1,16 @@
-<script>
-    window.location.href = "/";
-</script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+        const path = window.location.pathname
+        
+        // deeplink for redirect to android app
+        if(!path.startsWith("/.well-known")){
+            const query = window.location.search
+            window.location.replace("/?" + path + query)
+        }
+
+        </script>
+    </head>
+</html>
