@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.ewskarhutla",
+    "sha256_cert_fingerprints":
+    ["30:6A:F2:8E:FD:55:04:B4:1A:FB:4B:62:C0:31:87:22:32:81:C5:5E:85:C2:EA:D2:AB:49:B6:0F:19:BE:F8:CC"]
+  }
+}]
