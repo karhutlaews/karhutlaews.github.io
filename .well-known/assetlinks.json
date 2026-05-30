@@ -3,7 +3,9 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.example.ewskarhutla",
-    "sha256_cert_fingerprints":
-    ["30:6A:F2:8E:FD:55:04:B4:1A:FB:4B:62:C0:31:87:22:32:81:C5:5E:85:C2:EA:D2:AB:49:B6:0F:19:BE:F8:CC"]
+    "sha256_cert_fingerprints": [
+      "30:6A:F2:8E:FD:55:04:B4:1A:FB:4B:62:C0:31:87:22:32:81:C5:5E:85:C2:EA:D2:AB:49:B6:0F:19:BE:F8:CC",
+      "E6:B6:7B:C5:3F:77:09:7F:D3:1F:0F:B8:9F:6F:0F:FC:01:B7:5B:18:A4:9F:AB:81:45:B9:49:93:29:D7:95:50"
+    ] 
   }
 }]
